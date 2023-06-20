@@ -1,0 +1,79 @@
+{
+    "language":{
+        "english":{
+            "title":"WE'RE LAUNCHING SOON",
+            "days":"DAYS",
+            "hours":"HOURS",
+            "minutes":"MINUTES",
+            "seconds":"SECONDS",
+            "language":"LANGUAGE",
+            "english":"ENGLISH",
+            "spanish":"SPANISH",
+            "german":"GERMAN",
+            "french":"FRENCH",
+            "italian":"ITALIAN",
+            "timeUnit":"TIME UNIT"
+
+        },
+        "spanish":{
+            "title":"ESTAMOS A PUNTO DE LANZAR",
+            "days":"DÍAS",
+            "hours":"HORAS",
+            "minutes":"MINUTOS",
+            "seconds":"SEGUNDOS",
+            "language":"IDIOMA",
+            "english":"INGLES",
+            "spanish":"ESPAÑOL",
+            "german":"ALEMAN",
+            "french":"FRANCES",
+            "italian":"ITALIANO",
+            "timeUnit":"UNIDAD DE TIEMPO"
+
+        },
+        "german":{
+            "title":"WIR STARTEN BALD",
+            "days":"TAGE",
+            "hours":"STUDEN",
+            "minutes":"MINUTEN",
+            "seconds":"SEKUNDEN",
+            "language": "SPRACHE",
+            "english":"ENGLISCH",
+            "spanish":"SPANISCH",
+            "german":"DEUTSCH",
+            "french":"FRANZÖSISCH ",
+            "italian":"ITALIENISCH",
+            "timeUnit":"ZEITEINHEIT"
+
+        },
+        "french": {
+            "title": "NOUS LANCERONS BIENTÔT",
+            "days": "JOURS",
+            "hours": "HEURES",
+            "minutes": "MINUTES",
+            "seconds": "SECONDES",
+            "language": "LANGUE",
+            "english": "ANGLAIS",
+            "spanish": "ESPAGNOL",
+            "german": "ALLEMAND",
+            "french": "FRANÇAIS",
+            "italian": "ITALIEN",
+            "timeUnit":"UNITÉ DE TEMPS"
+ 
+        },
+        "italian": {
+            "title": "STIAMO PER LANCIARE",
+            "days": "GIORNI",
+            "hours": "ORE",
+            "minutes": "MINUTI",
+            "seconds": "SECONDI",
+            "language": "LINGUA",
+            "english": "INGLESE",
+            "spanish": "SPAGNOLO",
+            "german": "TEDESCO",
+            "french": "FRANCESE",
+            "italian": "ITALIANO",
+            "timeUnit":"UNITÀ DI TEMPO"
+
+        }    
+    }
+}

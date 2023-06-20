@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    display: inline-block;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+:root {
+
+    --mainFont:'Red Hat Text', sans-serif;
+
+
+    --text: hsl(237, 18%, 59%);
+
+
+    --color: hsl(236, 21%, 26%);
+    --darkColor: hsl(235, 16%, 14%);
+    --veryDarkColor: hsl(234, 17%, 12%);
+
+    --textMagenta: hsl(345, 95%, 68%);
+    --textViolet: hsl(290, 65%, 50%);
+    --textCyan: hsl(197, 65%, 50%);
+    --textTeal: hsl(180, 100%, 25%);
+    --textOrange: hsl(19, 68%, 52%);
+
+
+}
+
+body {
+
+    font-family: var(--mainFont);
+
+}
+
+.shadowBottom {
+    box-shadow: 3px 8px 2px -1px rgba(0, 0, 0, 0.5);
+}
