@@ -41,7 +41,15 @@ span {
 
 }
 
-body, button {
+body {
+
+    font-family: var(--mainFont);
+    letter-spacing: 3px;
+    height: 100svh;
+
+}
+
+button {
 
     font-family: var(--mainFont);
     letter-spacing: 3px;

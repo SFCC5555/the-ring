@@ -102,7 +102,7 @@ const Countdown = () => {
 
   return (
     <>
-      {samara?<img className="absolute w-full h-screen" src={samaraGift} alt="samara" />:
+      {samara?<img className="absolute w-full h-full" src={samaraGift} alt="samara" />:
         <div className="flex flex-col items-center text-white gap-3 lightText cursor-crosshair">
           <div className="secondFont text-9xl" >{countdown&&countdown[timeUnit]}</div>
           <div className="text-8xl" >{data.language[language][timeUnit]} </div>
