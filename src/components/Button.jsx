@@ -3,7 +3,6 @@ import data from '../data.json';
 import { useSelector, useDispatch } from 'react-redux';
 import { changeLanguage } from '../redux/languageSlice';
 import { changeTimeUnit } from '../redux/timeUnitSlice';
-import '../styles/Button.css'
 import PropTypes from 'prop-types';
 
 const Button = ({concept,list}) => {
@@ -11,7 +10,6 @@ const Button = ({concept,list}) => {
     const [menu,setMenu] = useState(false);
 
     const language = useSelector(state=>state.language);
-    const timeUnit = useSelector(state=>state.timeUnit);
     
     const dispatch = useDispatch();
 
@@ -28,13 +26,13 @@ const Button = ({concept,list}) => {
     }
 
   return (
-    <div className='flex flex-col items-center gap-2'>
-        <button onClick={()=>setMenu(prev=>!prev)} className='w-32 px-3 py-1 rounded-md text-white text-sm opacity-80 hover:opacity-100 flex items-center justify-between gap-2' style={{backgroundColor:'var(--text)'}}>
-            {data.language[language][concept]}  
+    <div className='flex flex-col items-center gap-2 '>
+        <button onClick={()=>setMenu(prev=>!prev)} className='w-32 px-3 py-1 rounded-md text-white text-2xl font-bold bg-white/5  flex items-center justify-center gap-2 lightTextHover'>
+            {data.language[language][concept]}
         </button>
-        {menu&&<section className="menu flex flex-col gap-2 text-xs text-white text-start w-32 rounded-md p-2" style={{backgroundColor:'var(--text)'}}>
+        {menu&&<section className="menu flex flex-col gap-1 text-2xl text-white text-start bg-white/5 hover:bg-white/10 w-32 rounded-md p-2">
             {
-            list.map(i=><div onClick={handleClick} id={i} className='hover:opacity-75 cursor-pointer flex items-center justify-between' key={i}>{data.language[language][i]}</div>)
+            list.map(i=><div onClick={handleClick} id={i} className='lightTextHover cursor-pointer flex items-center justify-between' key={i}>{data.language[language][i].toLowerCase()}</div>)
             }
 
         </section>}

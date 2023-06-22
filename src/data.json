@@ -12,12 +12,12 @@
             "german":"GERMAN",
             "french":"FRENCH",
             "italian":"ITALIAN",
-            "timeUnit":"TIME UNIT"
+            "timeUnit":"TIME"
 
         },
         "spanish":{
             "title":"ESTAMOS A PUNTO DE LANZAR",
-            "days":"DÍAS",
+            "days":"DIAS",
             "hours":"HORAS",
             "minutes":"MINUTOS",
             "seconds":"SEGUNDOS",
@@ -27,7 +27,7 @@
             "german":"ALEMAN",
             "french":"FRANCES",
             "italian":"ITALIANO",
-            "timeUnit":"UNIDAD DE TIEMPO"
+            "timeUnit":"TIEMPO"
 
         },
         "german":{
@@ -42,7 +42,7 @@
             "german":"DEUTSCH",
             "french":"FRANZÖSISCH ",
             "italian":"ITALIENISCH",
-            "timeUnit":"ZEITEINHEIT"
+            "timeUnit":"ZEIT"
 
         },
         "french": {
@@ -57,7 +57,7 @@
             "german": "ALLEMAND",
             "french": "FRANÇAIS",
             "italian": "ITALIEN",
-            "timeUnit":"UNITÉ DE TEMPS"
+            "timeUnit":"TEMPS"
  
         },
         "italian": {
@@ -72,7 +72,7 @@
             "german": "TEDESCO",
             "french": "FRANCESE",
             "italian": "ITALIANO",
-            "timeUnit":"UNITÀ DI TEMPO"
+            "timeUnit":"TEMPO"
 
         }    
     }

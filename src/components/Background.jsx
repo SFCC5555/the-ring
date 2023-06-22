@@ -1,4 +1,3 @@
-import '../styles/Background.css';
 import interference from '../assets/images/interference.gif'
 
 const Background = () => {

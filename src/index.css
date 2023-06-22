@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+@font-face {
+    font-family: 'TheRing';
+    src: url('./assets/fonts/TheRing.ttf');
+}
+
+@font-face {
+    font-family: 'Ghosts';
+    src: url('./assets/fonts/Ghosts.ttf');
+}
 
 @tailwind base;
 @tailwind components;
@@ -19,7 +27,8 @@ span {
 
 :root {
 
-    --mainFont:'Red Hat Text', sans-serif;
+    --mainFont:'TheRing','Ghosts', sans-serif;
+    --secondFont:'Ghosts', sans-serif;
 
 
     --text: hsl(237, 18%, 59%);
@@ -29,21 +38,37 @@ span {
     --darkColor: hsl(235, 16%, 14%);
     --veryDarkColor: hsl(234, 17%, 12%);
 
-    --textMagenta: hsl(345, 95%, 68%);
-    --textViolet: hsl(290, 65%, 50%);
-    --textCyan: hsl(197, 65%, 50%);
-    --textTeal: hsl(180, 100%, 25%);
-    --textOrange: hsl(19, 68%, 52%);
-
 
 }
 
-body {
+body, button {
 
     font-family: var(--mainFont);
+    letter-spacing: 3px;
 
+}
+
+.secondFont {
+    font-family: var(--secondFont);
 }
 
 .shadowBottom {
     box-shadow: 3px 8px 2px -1px rgba(0, 0, 0, 0.5);
+}
+
+.lightText {
+    text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 20px #fff, 0 0 15px #fff, 0 0 0px #fff, 0 0 00px #fff, 0 0 0px #fff;
+    animation-name: lightTextAnimation;
+    animation-duration: 500ms;
+}
+
+.lightTextHover:hover {
+    text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 20px #fff, 0 0 15px #fff, 0 0 0px #fff, 0 0 00px #fff, 0 0 0px #fff;
+}
+
+@keyframes lightTextAnimation {
+
+    0%{opacity: 0%;}
+    100%{opacity: 100%;}
+    
 }
